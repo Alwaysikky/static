@@ -26,40 +26,27 @@
 		})();
 	</script>
 	
-	<style>
-		img{
-			position:absolute;
-			left:10px;
-			bottom:0;
-		}
-		
-	</style>
-	
 </head>
 
 <body>
 
 	<div id='legend' class="leaflet-container">
 		<b>圖例</b><br />
-		<span>&#11044; 高度風險</span><br />
-		<span>&#11044; 中度風險</span><br />
-		<span>&#11044; 低度風險</span><br />
+		<span href=# title="確診病例居所或長期逗留場所">&#11044; 高度風險</span><br />
+		<span href=# title="確診病例短期逗留場所">&#11044; 中度風險</span><br />
+		<span href=# title="居家檢疫人員居所或疑似移動路徑">&#11044; 低度風險</span><br />
 	</div>
 	<div id='title' class="leaflet-container">
 		<font size="5"><b>香港 澳門 COVID-19暴露風險點分佈</font></b><br/>
 		<div style="text-align:center" id="sub-title">
-			更新於2020/02/18
+			更新於2020/02/22
 		</div>
-	</div>
-	<div id='explain' class="leaflet-container">
 	</div>
 	<div id="map"></div>
 	<script src="./lib/Locate/L.Control.Locate.min.js" charset="utf-8"></script>
 	<script src="new1.js"></script>
-	<img src="../PolyU.png" width=200;height=80>
-	<div id='explain' class="leaflet-container">
-		<span style="color:red">確診病例居所或長期逗留場所;</span><span style="color:orange">確診病例短期逗留場所;</span><span style="color:green">居家檢疫人員居所或疑似移動路徑</span>
-	</div>
+	<img src="../PolyU.png" width="200px";height="80px" style="position:absolute;left:10px;bottom:5px;">
+	<img src="../LSGI.png" width="240px";height="40px" style="position:absolute;left:220px;bottom:1px;">
 </body>
 
 </html>
